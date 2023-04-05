@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Productsans";
+  src: url("../productsansbold.ttf");
+}
+
+.first {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: green;
+}
+
+.styledh1 {
+  font-size: 120px;
+  font-weight: 800;
+  color: green;
+}
+
+h3 {
+  text-transform: lowercase;
+  letter-spacing: 10px;
+  text-shadow: 2px 5px;
+}
+
+h1 {
+  color: red;
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+}
+
+.inputfield {
+  width: 30rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin-left: 30px;
+  padding-left: 10px;
+}
+
+a {
+  color: blue;
+  font-size: 30px;
+  font-family: "Sono", sans-serif;
+}
+
+.name {
+  color: #197bbd;
+}
+
+.btn {
+  width: 160px;
+  height: 4rem;
+  margin-left: 3rem;
+  font-size: 2rem;
+  color: #ffffff;
+  background-color: #197bbd;
+  border: 5px solid black;
+  border-radius: 10px;
+  outline: 2px solid red;
+  outline-offset: 5px;
+}
+
+// this is a single line comment
+
+/* this
+is 
+a
+comment
+that
+is
+on
+multiple
+lines
+*/
+.flexdiv {
+  display: flex;
+  align-items: center;
+  gap: 5rem............;
+}
+
+span {
+  display: flex;
+  gap: 3px;
+}
+
+.google {
+  font-family: Productsans;
+}
+
+#submit {
+  width: 12rem;
+  height: 4rem;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
